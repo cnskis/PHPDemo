@@ -14,4 +14,4 @@
 
 这个接口跑在1h2g1m云服务器上，做了负载均衡后，哥们儿两台肉鸡4000线程cc攻击压测无异常；
 
-[接口使用指南V2]https://mp.weixin.qq.com/s?__biz=Mzg3NzA5ODYwMg==&mid=2247483742&idx=1&sn=790f742718d3e3ff06f7e156a424e032&chksm=cf29625bf85eeb4dbcf5edbd836312c38de9e2b962b62a1f1743d6c89987324d5f7c6a9d9659&mpshare=1&scene=23&srcid=&sharer_sharetime=1593657175024&sharer_shareid=bd451472098b909c977b4bea5d828a86#rd/ )
+[接口使用指南V2]（https://mp.weixin.qq.com/s__biz=Mzg3NzA5ODYwMg==&mid=2247483742&idx=1&sn=790f742718d3e3ff06f7e156a424e032&chksm=cf29625bf85eeb4dbcf5edbd836312c38de9e2b962b62a1f1743d6c89987324d5f7c6a9d9659&mpshare=1&scene=23&srcid=&sharer_sharetime=1593657175024&sharer_shareid=bd451472098b909c977b4bea5d828a86#rd/ ）

@@ -18,6 +18,6 @@
 ). 
 
 ### 请求地址：
-    URL=https://api.hxcloud365.cn:9999/API/stuinfo.php
+    URL=https://api.hycloud365.cn:9999/API/stuinfo.php
 ### 请求方法：
     GET

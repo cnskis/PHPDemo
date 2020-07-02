@@ -21,3 +21,10 @@
     URL=https://api.hycloud365.cn:9999/API/stuinfo.php
 ### 请求方法：
     GET
+### 请求参数
+参数     | 类型    |  是否必须  | 说明
+-------- | -----    | -------- | ------
+user  | String  | 必须  | 用户账号
+key  | String  |  必须  | 用户密码
+name  | String  |  必须  | 查询姓名
+year  | String  |  必须  |  目标年级

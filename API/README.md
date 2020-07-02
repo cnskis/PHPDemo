@@ -1,32 +1,8 @@
-# whvcse学生基本信息查询接口
-
-## 该接口数据来源为校内各公开文件
-<font color=red>本接口仅供交流学习，切勿用作违法用途；
-
-仅对武软在校师生开放；
-
-请合理使用该接口；
-
-使用即视为有保护个人信息之责任；
-
-请遵守《中华人民共和国网络安全法》
-</font>
-
-这个接口跑在1h2g1m云服务器上，做了负载均衡后，哥们儿两台肉鸡4000线程cc攻击压测无异常；
-
-[接口使用指南V2](http://mp.weixin.qq.com/s?__biz=Mzg3NzA5ODYwMg==&mid=2247483742&idx=1&sn=790f742718d3e3ff06f7e156a424e032&chksm=cf29625bf85eeb4dbcf5edbd836312c38de9e2b962b62a1f1743d6c89987324d5f7c6a9d9659&mpshare=1&scene=23&srcid=&sharer_sharetime=1593657175024&sharer_shareid=bd451472098b909c977b4bea5d828a86#rd
-). 
-
-### 请求地址
-    URL=https://api.hycloud365.cn:9999/API/stuinfo.php
-### 请求方法
-    GET
-### 请求参数
-参数     | 类型    |  是否必须  | 说明
--------- | -----    | -------- | ------
-user  | String  | 必须  | 用户账号
-key  | String  |  必须  | 用户密码
-name  | String  |  必须  | 查询姓名
-year  | String  |  必须  |  目标年级
-### 请求示例
-    https://api.hycloud365.cn:9999/API/stuinfo.php?user={账号}&key={密码}&name={目标姓名}&year={目标年级} 
+# V2版本说明
+### md5.php
+md5加密
+### stuinfo.php
+这个文件是‘if毁灭者’，事实上设计数据库的时候，18和19届属两张表，所以为了查询方便，只能放在一个接口地址里，于是这个文件写得有点小复杂；
+建议在参数过滤的条件下再增加sql语句limit条件，以防SQL注入
+### user.php
+用户验证；目前正在写一个限制用户查询次数的功能，很多接口框架里都有类似的计数功能，但我想自己写一个，这个文件还不是很完善

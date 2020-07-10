@@ -16,5 +16,5 @@ $sql = "SELECT * FROM user WHERE (user='$user') AND (passwd='$passwd') collate u
  }
  else{
 	 echo '{["错误":"用户名或密码错误"]}';	 
-}
+ }
 ?>           
